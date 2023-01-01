@@ -9,6 +9,7 @@ import NotFound from './components/NotFound'
 import ProtectedRoute from './components/ProtectedRoute'
 
 function App() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [user, loading] = useAuthState(auth)
   if (loading) return <Loading />
   return (
