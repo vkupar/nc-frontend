@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+### General information
+
+- Working on this project (BE + FE + Deployment) took me around 2 full days.
+- Used `Blueprint.js` as a UI toolkit for the first time.
+- Implemented Firebase Auth for the first time.
+- Deployed on `Netlify` for the first time.
+- ! Tests are missing _(will be added if requested)_
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installation
+
+(optional) Install [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) extensions for [VS Code](https://code.visualstudio.com/download).
+
+Install dependencies:
+
+```
+npm install
+```
+
+Set default environment variables. Create a `Firebase` project, activate Authentication => Phone, and specify credentials:
+
+```
+cp .env.example .env
+```
 
 ## Available Scripts
 
@@ -14,7 +38,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm test` _(tests will be added if requested)_
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
