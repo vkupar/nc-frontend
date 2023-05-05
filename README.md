@@ -1,11 +1,3 @@
-### General information - [https://gregarious-pastelito-3acedb.netlify.app/](https://gregarious-pastelito-3acedb.netlify.app/)
-
-- Working on this project (BE + FE + Deployment) took me around 2 full days.
-- Used `Blueprint.js` as a UI toolkit for the first time.
-- Implemented Firebase Auth for the first time.
-- Deployed on `Netlify` for the first time. Pushing changes to the `main` branch triggers automatic deployment on Netlify.
-- ! Tests are missing _(will be added if requested)_
-
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
