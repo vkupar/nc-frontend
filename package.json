@@ -14,7 +14,7 @@
   "dependencies": {
     "@blueprintjs/core": "^4.13.0",
     "firebase": "^9.15.0",
-    "libphonenumber-js": "^1.10.17",
+    "libphonenumber-js": "^1.10.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-firebase-hooks": "^5.1.1",
