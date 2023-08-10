@@ -11,6 +11,7 @@ import ProtectedRoute from './components/ProtectedRoute'
 function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [user, loading] = useAuthState(auth)
+  console.log(loading)
   if (loading) return <Loading />
   return (
     <Router>
